@@ -7,13 +7,6 @@ import { NextPage } from 'next';
 import type { AppProps } from 'next/app';
 import { ReactElement, ReactNode } from 'react';
 
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
-=======
->>>>>>> Stashed changes
 type NextPageWithLayout = NextPage & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
@@ -37,18 +30,10 @@ export default function App ({ Component, pageProps }: AppPropsWithLayout) {
         colorScheme: 'light',
         colors: {
           'brand': ['#56a8f0']
-<<<<<<< Updated upstream
-        },
-=======
         }
->>>>>>> Stashed changes
       }}
     >
       <main>{getLayout(<Component {...pageProps} />)}</main>
     </MantineProvider>
   )
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 }
