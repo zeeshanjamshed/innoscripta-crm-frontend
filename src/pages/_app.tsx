@@ -30,7 +30,7 @@ export default function App ({ Component, pageProps }: AppPropsWithLayout) {
         colorScheme: 'light',
         colors: {
           'brand': ['#56a8f0']
-        },
+        }
       }}
     >
       <main>{getLayout(<Component {...pageProps} />)}</main>

@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "id": 1,
+      "name": "Zeeshan"
+    },
+    "salutation": "Mr",
+    "first_name": "John",
+    "last_name": "Doe",
+    "description": "Lorem ipsum dolor sit amet, consectetur",
+    "job_title": "Software Developer",
+    "industry": "Technology",
+    "company": "Innocscript",
+    "email": "krishan@gmail.com",
+    "phone": "+234 9087968754",
+    "website": "www.innoscripta.com",
+    "street_address": "Bahria Town",
+    "city": "Rawalpindi",
+    "state": "Punjab",
+    "postal_code": "41094904",
+    "country": "Pakistan",
+    "rating": 3,
+    "status": "Qualification",
+    "loss_reason": "Every reason",
+    "source": "website",
+    "pipeline": {
+      "id": 1,
+      "name": "Standard"
+    },
+    "insurance": "Insurance",
+    "annual_revenue": "$100,000",
+    "created_at": "05/27/30"
+  },
+  {
+    "id": 2,
+    "user": {
+      "id": 2,
+      "name": "Alice"
+    },
+    "salutation": "Ms",
+    "first_name": "Jane",
+    "last_name": "Smith",
+    "description": "Lorem ipsum dolor sit amet, consectetur",
+    "job_title": "Marketing Manager",
+    "industry": "Marketing",
+    "company": "ABC Company",
+    "email": "jane@example.com",
+    "phone": "+123 4567890",
+    "website": "www.example.com",
+    "street_address": "123 Main Street",
+    "city": "New York",
+    "state": "NY",
+    "postal_code": "10001",
+    "country": "USA",
+    "rating": 2,
+    "status": "Prospect",
+    "loss_reason": "",
+    "source": "Referral",
+    "pipeline": {
+      "id": 2,
+      "name": "Custom"
+    },
+    "insurance": "Insurance",
+    "annual_revenue": "$100,000",
+    "created_at": "05/27/30"
+  }
+]
